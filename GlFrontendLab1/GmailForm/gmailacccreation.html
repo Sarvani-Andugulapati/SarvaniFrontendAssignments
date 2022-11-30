@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="gmailformstyle.css">
+    <style>
+        input:focus{
+            background-color: teal;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="gmailform">
+    <div class="video-container">
+        <video src="./Backgroundvideo.mp4" autoplay muted loop id="myvideo">
+        </video>
+    </div>
+    </div>
+    <div class="acccreate">
+        <h2>Create Gmail Account</h2>
+        <form>
+            <div class="user-name">
+                <input type="text" name="FullName" placeholder="Full Name" required>
+            </div>
+            <div class="Contact">
+                <input style="border: none;width: 250px;" type="number" name="Contact" placeholder="Contact Number" min="6666666666" max="9999999999">
+            </div>
+            <div class="emailid">
+                <input style="border: none;width: 250px;" type="email" name="EmailID" placeholder="Enter email Id" required>
+            </div>
+            <button>Reset</button>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
